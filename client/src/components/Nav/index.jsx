@@ -4,19 +4,24 @@ import logolight from "./../../assets/logo/logo-light.png";
 import { GoSearch } from "react-icons/go";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
+import {useNavigate} from 'react-router-dom'
 
 const Nav = () => {
+  const navigate = useNavigate()
   const sideNav = useRef();
   const toggleNav = () => {
     sideNav.current.classList.toggle('active')
   };
+  const click=() => {
+    navigate('/contact')
+  }
   return (
     <nav>
       <div className="container">
         <img src={logolight} alt="" />
         <ul>
-          <li>Contact</li>
           <li>Products</li>
+          <li onClick={click}>Contact</li>
           <li>Category</li>
           <li>About</li>
           <GoSearch id="searchIcon" />

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -9,13 +10,29 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-button{
+
+button {
     cursor: pointer;
 }
-html{
+
+html {
     font-size: 10px;
 }
-.container{
+
+.container {
     max-width: 144em;
     margin: 0 auto;
+}
+
+@font-face {
+    font-family: "Function Pro";
+    /*Can be any text*/
+    src: local("Fontspring-DEMO-functionpro-book"),
+        url("../fonts/Fontspring-DEMO-functionpro-book.otf") format("truetype");
+}
+@font-face {
+    font-family: "Function Pro-Light";
+    /*Can be any text*/
+    src: local("Fontspring-DEMO-functionpro-light"),
+        url("../fonts/Fontspring-DEMO-functionpro-light.otf") format("truetype");
 }

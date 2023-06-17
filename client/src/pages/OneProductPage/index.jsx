@@ -27,20 +27,14 @@ const OneProductPage = () => {
           </div>
           <div className="txt-s">
             <div className="txt-c">
-              <h1>Broken T Shirt</h1>
-              <p>
-                This black t-shirt is constructed using fine cotton poplin on
-                the front panel for a refined, elegant finish and a contrasting
-                textural pique knit on the reverse for comfort and detail. The
-                fit is tailored, with both fabrics adding elements of stretch
-                for increased comfort.
-              </p>
+              <h1>{selectedItem.name}</h1>
+              <p>{selectedItem.about}</p>
               <ul>
-                <li>SKU: <span>3</span></li>
-                <li>Categories: <span>Men, T Shirts</span></li>
-                <li>Tags: <span>broken, tshirt</span></li>
+                <li>SKU: <span>{selectedItem.sku}</span></li>
+                <li>Categories: <span>{selectedItem.category}</span></li>
+                <li>Tags: <span>{selectedItem.tags}</span></li>
               </ul>
-              <h1>{selectedItem.category}</h1>
+              <h1 className="price">${selectedItem.price}</h1>
               <div className="btn-s">
                 <input type="number" />
                 <button>Add to card</button>

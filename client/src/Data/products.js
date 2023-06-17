@@ -14,7 +14,10 @@ export const productsJson = [
     img2: p1_2,
     name: "Broken T Shirt",
     price: 9,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Men, T Shirts",
+    sku: 3,
+    tags: "broken, tshirt"
   },
   {
     id: 2,
@@ -22,7 +25,10 @@ export const productsJson = [
     img2: p2_2,
     name: "Knickerboxer",
     price: 25,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Men, Sweaters",
+    sku: 7,
+    tags: "gray, sweater"
   },
   {
     id: 3,
@@ -30,7 +36,10 @@ export const productsJson = [
     img2: p3_2,
     name: "Studio Belt",
     price: 7,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Accessories",
+    sku: 24,
+    tags: "beige, belt, brown, studio"
   },
   {
     id: 4,
@@ -38,7 +47,10 @@ export const productsJson = [
     img2: p4_2,
     name: "Chambray Shirt",
     price: 29,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Men, Sweaters",
+    sku: 18,
+    tags: "blue, navy, shirt"
   },
   {
     id: 5,
@@ -46,7 +58,10 @@ export const productsJson = [
     img2: p1_2,
     name: "Broken T Shirt",
     price: 9,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Men, T Shirts",
+    sku: 3,
+    tags: "broken, tshirt"
   },
   {
     id: 6,
@@ -54,7 +69,10 @@ export const productsJson = [
     img2: p2_2,
     name: "Knickerboxer",
     price: 25,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Men, Sweaters",
+    sku: 7,
+    tags: "gray, sweater"
   },
   {
     id: 7,
@@ -62,7 +80,10 @@ export const productsJson = [
     img2: p3_2,
     name: "Studio Belt",
     price: 7,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Accessories",
+    sku: 24,
+    tags: "beige, belt, brown, studio"
   },
   {
     id: 8,
@@ -70,6 +91,9 @@ export const productsJson = [
     img2: p4_2,
     name: "Chambray Shirt",
     price: 29,
+    about:"This black t-shirt is constructed using fine cotton poplin on the front panel for a refined, elegant finish and a contrasting textural pique knit on the reverse for comfort and detail. The fit is tailored, with both fabrics adding elements of stretch for increased comfort.",
     category: "Men, Sweaters",
-  },
+    sku: 18,
+    tags: "blue, navy, shirt"
+  }
 ];

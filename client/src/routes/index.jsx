@@ -3,6 +3,7 @@ import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import Nav from "../components/Nav";
 import OneProductPage from "../pages/OneProductPage";
+import Contact from "../pages/ContactPage";
 
 export const routes = createBrowserRouter([
     {
@@ -16,5 +17,9 @@ export const routes = createBrowserRouter([
     {
         path:'/productPage',
         element:<OneProductPage/>
+    },
+    {
+        path:'/contact',
+        element:<Contact/>
     }
 ])
